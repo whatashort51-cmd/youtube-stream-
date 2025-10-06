@@ -3,11 +3,11 @@ import subprocess
 import time
 
 # 🔑 Stream key Render ke Environment me set karna (YOUTUBE_STREAM_KEY)
-YOUTUBE_URL = f"rtmp://a.rtmp.youtube.com/live2/{os.getenv('YOUTUBE_STREAM_KEY')}"
+YOUTUBE_URL = f"rtmp://a.rtmp.youtube.com/live2/{os.getenv('cfuu-58e3-365k-em52-0ba6')}"
 
 # 🎥 Google Drive se video link (Direct Download link banana zaroori hai)
 # Example: https://drive.google.com/uc?export=download&id=YOUR_FILE_ID
-VIDEO_URL = "https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
+VIDEO_URL = "https://drive.google.com/uc?export=download&id=1LM17-mHOHsdRDWIxJ2hx_Vb4Do5wnSEI"
 
 def start_stream():
     while True:
